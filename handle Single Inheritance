@@ -1,0 +1,22 @@
+class A
+{
+int a=55,b=15;
+void display() 
+{ 
+int sub=a-b;
+System.out.println("sub :"+sub);
+}}
+class B extends A
+{
+void display2()
+{
+int sum=a+b;
+System.out.println("sum : "+sum);
+}}
+class singleInheritance {
+public static void main(String[] args)
+{
+B ob=new B(); 
+ob.display();
+ob.display2();
+}}
