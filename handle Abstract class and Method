@@ -1,0 +1,20 @@
+abstract class Shape { 
+public abstract void draw();
+}
+class Circle extends Shape
+{
+public void draw() 
+{ System.out.println("circle");
+}}
+class Rectangle extends Shape
+{
+public void draw() {
+System.out.println("rectangle");
+}}
+class ex2{
+public static void main(String[] args) { 
+Shape circle = new Circle();
+Shape rectangle = new Rectangle(); 
+circle.draw(); // Output: circle rectangle.draw();
+}
+}
