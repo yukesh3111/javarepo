@@ -1,0 +1,29 @@
+class Test
+{
+public static void main String[] args)
+{
+String s= "My java program"; 
+System.out.println("String length = " + s.length());
+System.out.println("Character at 4th position = " + s.charAt(4));
+System.out.println("Substring " + s.substring(3)); 
+System.out.println("Substring = " + s.substring(2,5));
+String s1 = "My";
+String s2 = "javaprogram"; 
+System.out.println("Concatenated string = " +s1.concat(s2));
+String s4 = "Easy to Learn";
+System.out.println("Index of Share " + s4.indexOf("Share")); 
+System.out.println("Index of a = " + s4.indexOf('a',3));
+Boolean out = "My".equals("my"); 
+System.out.println("Checking Equality " + out); 
+out = "My".equals("My"); 
+System.out.println("Checking Equality " + out); 
+out = "India".equalsIgnoreCase("INdiA "); 
+System.out.println("Checking Equality " + out); 
+int out1 = s1.compareTo(s2);
+System.out.println("the difference between ASCII value is="+out1);
+String word1 = "GeeKyMe";
+System.out.println("Changing to lower Case " +word1.toLowerCase());
+String word2 = "GeekyME";
+System.out.println("Changing to UPPER Case " + word2.toUpperCase());
+} 
+}
